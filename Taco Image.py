@@ -3,7 +3,7 @@ image = Image.open('jason-leung-tZq8NkZ3T8k-unsplash.jpg')      #This is the ima
 
 img_draw = ImageDraw.Draw(image)    #I use the Draw library to create the text from the font library on the image.
 
-font = ImageFont.truetype('DejaVuSans.ttf', 500)    #
+font = ImageFont.truetype('DejaVuSans.ttf', 500)    #This is the font and the size of the font
 img_draw.text([350, 20], 'Random Taco Cookbook', fill='blue', font=font)
 image.thumbnail((800, 800))
 
