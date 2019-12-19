@@ -5,7 +5,7 @@ img_draw = ImageDraw.Draw(image)    # I use the Draw library to create the text 
 
 font = ImageFont.truetype('DejaVuSans.ttf', 500)    # This is the font and the size of the font
 img_draw.text([350, 20], 'Random Taco Cookbook', fill='blue', font=font) # This is the font
-image.thumbnail((800, 800)) # This adjusts the size of the image while keeping that aspect ratio
+image.thumbnail((500, 800)) # This adjusts the size of the image while keeping that aspect ratio
 
 image.show() # This allows the image to show and view the modifications
 
