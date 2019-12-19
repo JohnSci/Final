@@ -9,4 +9,4 @@ image.thumbnail((500, 800)) # This adjusts the size of the image while keeping t
 
 image.show() # This allows the image to show and view the modifications
 
-image.save('Omega Taco.jpg') # Saves the image and creates a new taco image: an Omega Taco image :)
+image.save('Omega Tacos.jpg') # Saves the image and creates a new taco image: an Omega Taco image :)
